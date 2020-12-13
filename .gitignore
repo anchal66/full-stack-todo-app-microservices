@@ -1,0 +1,82 @@
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/Angular/todo/dist
+/Angular/todo/tmp
+/Angular/todo/out-tsc
+# Only exists if Bazel was run
+/Angular/todo/bazel-out
+
+# dependencies
+/Angular/todo/node_modules
+
+# profiling files
+/Angular/todo/chrome-profiler-events*.json
+/Angular/todo/speed-measure-plugin*.json
+
+# IDEs and editors
+/Angular/todo/.idea
+/Angular/todo/.project
+/Angular/todo/.classpath
+/Angular/todo/.c9/
+/Angular/todo/*.launch
+/Angular/todo/.settings/
+/Angular/todo/*.sublime-workspace
+
+# IDE - VSCode
+/Angular/todo/.vscode/*
+/Angular/todo/!.vscode/settings.json
+/Angular/todo/!.vscode/tasks.json
+/Angular/todo/!.vscode/launch.json
+/Angular/todo/!.vscode/extensions.json
+/Angular/todo/.history/*
+
+# misc
+/Angular/todo/.sass-cache
+/Angular/todo/connect.lock
+/Angular/todo/coverage
+/Angular/todo/libpeerconnection.log
+/Angular/todo/npm-debug.log
+/Angular/todo/yarn-error.log
+/Angular/todo/testem.log
+/Angular/todo/typings
+
+# System Files
+/Angular/todo/.DS_Store
+/Angular/todo/Thumbs.db
+
+##JAVA
+/Java/HELP.md
+/Java/target/
+/Java/!.mvn/wrapper/maven-wrapper.jar
+/Java/!**/src/main/**/target/
+/Java/!**/src/test/**/target/
+
+### STS ###
+/Java/.apt_generated
+/Java/.classpath
+/Java/.factorypath
+/Java/.project
+/Java/.settings
+/Java/.springBeans
+/Java/.sts4-cache
+
+### IntelliJ IDEA ###
+/Java/.idea
+/Java/*.iws
+/Java/*.iml
+/Java/*.ipr
+
+### NetBeans ###
+/Java/nbproject/private/
+/Java/nbbuild/
+/Java/dist/
+/Java/nbdist/
+/Java/.nb-gradle/
+/Java/build/
+/Java/!**/src/main/**/build/
+/Java/!**/src/test/**/build/
+
+### VS Code ###
+/Java/.vscode/

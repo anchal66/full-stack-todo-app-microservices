@@ -1,0 +1,12 @@
+<h1>To Do</h1>
+<div class="container" *ngIf="todo">
+    <div>Description: <input type="text" name="description" required class="form-control" [(ngModel)]="todo.description"></div>
+    <div>Target Date: 
+        <input type="date" name="targetDate" required class="form-control" 
+        [ngModel]="todo.targetDate | date :'yyyy-MM-dd'"
+        (ngModelChange)="todo.targetDate = $event"></div>
+    <br>
+    <div>
+        <button class="btn btn-success" (click)="saveTodo()">Save</button>
+    </div>
+</div>
